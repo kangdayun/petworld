@@ -4,6 +4,7 @@ Android Studio Version 4.1
 AVD : Pixel 2, API 30, Target Android 11.0(Google Play), Resolution 1080 x 1920: 420dpi
 
 #java
+
 FifthActivity(본인) : 동네별(지하철역) 친구목록 / text file을 이용한 listview & searchview 기능 구현
 FourthActivity(일부분) : 사이즈별 친구목록 / Information class의 get method를 이용하여 adapter에 value들을 add함
 Information(본인) : Firebase Realtime Database에서 받아온 reference를 하나씩 가져오기 위한 class
@@ -12,25 +13,35 @@ MsgAdapter(공통) : SeventhActivity(나의 친구목록)을 위한 Adapter
 SeventhActivity(본인) : 나의 친구목록 / 파이어베이스에 '프로젝트명'-'friend'-'User ID' 형식을 만들고, adapter를 이용하여 나의 친구목록에 친구의 프로필이 추가되도록 함.
 SixthActivity(일부분) : Information class의 get method를 이용하여 adapter에 value들을 add함
 
+
 #res/drawble
+
 dog.jpg : MainActivity backgroud image
 dog_friend_2.jpg : ThirdActivity background image
 dogimage.jpg : users' profile image
 petfoot.jpg : 꾸미기에 활용
 
+
 #res/font
+
 nanumsquare_aceb.ttf : 모든 textview에 font 적용
 
+
 #res/layout
+
 activity_fifth.xml(본인) : 지하철역 listview & searchview
 activity_seventh.xml(본인) : 나의 친구목록 listview
 activity_sixth.xml(본인) : 동네별 친구목록 listview
 listview_msg.xml(본인) : 나의 친구목록 custom
 
+
 #res/raw
+
 subway.txt : 지하철 역 이름이 담긴 text file
 
+
 #res/values
+
 styles.xml : 어플 주요 색상 선정, 타이틀바 제거
 
 ---------------------------------------------------------------------------------------------
